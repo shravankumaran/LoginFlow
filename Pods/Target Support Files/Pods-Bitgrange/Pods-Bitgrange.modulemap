@@ -1,0 +1,6 @@
+framework module Pods_Bitgrange {
+  umbrella header "Pods-Bitgrange-umbrella.h"
+
+  export *
+  module * { export * }
+}

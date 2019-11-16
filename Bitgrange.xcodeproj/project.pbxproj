@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDABA69B1D3E822C0AC5A68A /* Pods_Bitgrange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BBCF48DB2176B29283E7BB /* Pods_Bitgrange.framework */; };
+		D988721D53E99024D3C3328D /* Pods_BitgrangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F7A2A78585A0125C69E9AF /* Pods_BitgrangeTests.framework */; };
+		F418117020951B3A00350632 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418116F20951B3A00350632 /* SignUpViewController.swift */; };
+		F4181172209524D400350632 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4181171209524D400350632 /* WhiteButton.swift */; };
+		F41D117820950F4800E4642D /* HelperFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D117720950F4800E4642D /* HelperFiles.swift */; };
+		F41D117C2095141A00E4642D /* UserHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D117B2095141A00E4642D /* UserHomeViewController.swift */; };
+		F43F28E2209531B400D1E06C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F28E1209531B400D1E06C /* MainViewController.swift */; };
+		F468D15B203E80EC0064D2AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468D15A203E80EC0064D2AA /* AppDelegate.swift */; };
+		F468D15D203E80EC0064D2AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468D15C203E80EC0064D2AA /* ViewController.swift */; };
+		F468D160203E80EC0064D2AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F468D15E203E80EC0064D2AA /* Main.storyboard */; };
+		F468D162203E80EC0064D2AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F468D161203E80EC0064D2AA /* Assets.xcassets */; };
+		F468D165203E80EC0064D2AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F468D163203E80EC0064D2AA /* LaunchScreen.storyboard */; };
+		F468D170203E80EC0064D2AA /* BitgrangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468D16F203E80EC0064D2AA /* BitgrangeTests.swift */; };
+		F468D17B203E80EC0064D2AA /* BitgrangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468D17A203E80EC0064D2AA /* BitgrangeUITests.swift */; };
+		F4AC974F2046611A00AF4025 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4AC974E2046611A00AF4025 /* GoogleService-Info.plist */; };
+		FDDE35212F996375B1498B26 /* Pods_BitgrangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0125C31EFDAC20A39082DECE /* Pods_BitgrangeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F468D16C203E80EC0064D2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F468D14F203E80EC0064D2AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F468D156203E80EC0064D2AA;
+			remoteInfo = Bitgrange;
+		};
+		F468D177203E80EC0064D2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F468D14F203E80EC0064D2AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F468D156203E80EC0064D2AA;
+			remoteInfo = Bitgrange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0125C31EFDAC20A39082DECE /* Pods_BitgrangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitgrangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		039028C53B3EA5C88A3B379E /* Pods-BitgrangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitgrangeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitgrangeTests/Pods-BitgrangeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		03F7A2A78585A0125C69E9AF /* Pods_BitgrangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitgrangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCC59B5BF3CA52F152033C3 /* Pods-Bitgrange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitgrange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bitgrange/Pods-Bitgrange.debug.xcconfig"; sourceTree = "<group>"; };
+		42BBCF48DB2176B29283E7BB /* Pods_Bitgrange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitgrange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700DF7E02A8E63A08C2EFB02 /* Pods-Bitgrange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitgrange.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bitgrange/Pods-Bitgrange.release.xcconfig"; sourceTree = "<group>"; };
+		75D23FEC360D038AE2AAC4A4 /* Pods-BitgrangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitgrangeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitgrangeUITests/Pods-BitgrangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8118D3C7B21DDC6DABCF11 /* Pods-BitgrangeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitgrangeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitgrangeUITests/Pods-BitgrangeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4095B22204E06C400E096F7 /* Bitgrange.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bitgrange.entitlements; sourceTree = "<group>"; };
+		F418116F20951B3A00350632 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F4181171209524D400350632 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
+		F41D117720950F4800E4642D /* HelperFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFiles.swift; sourceTree = "<group>"; };
+		F41D117B2095141A00E4642D /* UserHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeViewController.swift; sourceTree = "<group>"; };
+		F43F28E1209531B400D1E06C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F468D157203E80EC0064D2AA /* Bitgrange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitgrange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F468D15A203E80EC0064D2AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F468D15C203E80EC0064D2AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F468D15F203E80EC0064D2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F468D161203E80EC0064D2AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F468D164203E80EC0064D2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F468D166203E80EC0064D2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F468D16B203E80EC0064D2AA /* BitgrangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitgrangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F468D16F203E80EC0064D2AA /* BitgrangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitgrangeTests.swift; sourceTree = "<group>"; };
+		F468D171203E80EC0064D2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F468D176203E80EC0064D2AA /* BitgrangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitgrangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F468D17A203E80EC0064D2AA /* BitgrangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitgrangeUITests.swift; sourceTree = "<group>"; };
+		F468D17C203E80EC0064D2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AC974E2046611A00AF4025 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD0957946D4D004DD0BC56D4 /* Pods-BitgrangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitgrangeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitgrangeTests/Pods-BitgrangeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F468D154203E80EC0064D2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDABA69B1D3E822C0AC5A68A /* Pods_Bitgrange.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468D168203E80EC0064D2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D988721D53E99024D3C3328D /* Pods_BitgrangeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468D173203E80EC0064D2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDE35212F996375B1498B26 /* Pods_BitgrangeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F9E4E854545BB17A4EFC75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42BBCF48DB2176B29283E7BB /* Pods_Bitgrange.framework */,
+				03F7A2A78585A0125C69E9AF /* Pods_BitgrangeTests.framework */,
+				0125C31EFDAC20A39082DECE /* Pods_BitgrangeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48AF8B733A0E1346B28D5772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FCC59B5BF3CA52F152033C3 /* Pods-Bitgrange.debug.xcconfig */,
+				700DF7E02A8E63A08C2EFB02 /* Pods-Bitgrange.release.xcconfig */,
+				039028C53B3EA5C88A3B379E /* Pods-BitgrangeTests.debug.xcconfig */,
+				FD0957946D4D004DD0BC56D4 /* Pods-BitgrangeTests.release.xcconfig */,
+				75D23FEC360D038AE2AAC4A4 /* Pods-BitgrangeUITests.debug.xcconfig */,
+				8A8118D3C7B21DDC6DABCF11 /* Pods-BitgrangeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F468D14E203E80EC0064D2AA = {
+			isa = PBXGroup;
+			children = (
+				F468D159203E80EC0064D2AA /* Bitgrange */,
+				F468D179203E80EC0064D2AA /* BitgrangeUITests */,
+				F468D158203E80EC0064D2AA /* Products */,
+				48AF8B733A0E1346B28D5772 /* Pods */,
+				00F9E4E854545BB17A4EFC75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F468D158203E80EC0064D2AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F468D157203E80EC0064D2AA /* Bitgrange.app */,
+				F468D16B203E80EC0064D2AA /* BitgrangeTests.xctest */,
+				F468D176203E80EC0064D2AA /* BitgrangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F468D159203E80EC0064D2AA /* Bitgrange */ = {
+			isa = PBXGroup;
+			children = (
+				F468D15A203E80EC0064D2AA /* AppDelegate.swift */,
+				F4181171209524D400350632 /* WhiteButton.swift */,
+				F41D117720950F4800E4642D /* HelperFiles.swift */,
+				F41D117B2095141A00E4642D /* UserHomeViewController.swift */,
+				F468D15C203E80EC0064D2AA /* ViewController.swift */,
+				F418116F20951B3A00350632 /* SignUpViewController.swift */,
+				F43F28E1209531B400D1E06C /* MainViewController.swift */,
+				F468D15E203E80EC0064D2AA /* Main.storyboard */,
+				F468D163203E80EC0064D2AA /* LaunchScreen.storyboard */,
+				F468D166203E80EC0064D2AA /* Info.plist */,
+				F468D161203E80EC0064D2AA /* Assets.xcassets */,
+				F4095B22204E06C400E096F7 /* Bitgrange.entitlements */,
+				F4AC974E2046611A00AF4025 /* GoogleService-Info.plist */,
+				F468D16E203E80EC0064D2AA /* BitgrangeTests */,
+			);
+			path = Bitgrange;
+			sourceTree = "<group>";
+		};
+		F468D16E203E80EC0064D2AA /* BitgrangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F468D16F203E80EC0064D2AA /* BitgrangeTests.swift */,
+				F468D171203E80EC0064D2AA /* Info.plist */,
+			);
+			path = BitgrangeTests;
+			sourceTree = "<group>";
+		};
+		F468D179203E80EC0064D2AA /* BitgrangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F468D17A203E80EC0064D2AA /* BitgrangeUITests.swift */,
+				F468D17C203E80EC0064D2AA /* Info.plist */,
+			);
+			path = BitgrangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F468D156203E80EC0064D2AA /* Bitgrange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F468D17F203E80EC0064D2AA /* Build configuration list for PBXNativeTarget "Bitgrange" */;
+			buildPhases = (
+				4ED7EDDA626D710F45434E8D /* [CP] Check Pods Manifest.lock */,
+				F468D153203E80EC0064D2AA /* Sources */,
+				F468D154203E80EC0064D2AA /* Frameworks */,
+				F468D155203E80EC0064D2AA /* Resources */,
+				CDE8537873E0759012CCB850 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bitgrange;
+			productName = Bitgrange;
+			productReference = F468D157203E80EC0064D2AA /* Bitgrange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F468D16A203E80EC0064D2AA /* BitgrangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F468D182203E80EC0064D2AA /* Build configuration list for PBXNativeTarget "BitgrangeTests" */;
+			buildPhases = (
+				5137DE436B5F0872A3512AB8 /* [CP] Check Pods Manifest.lock */,
+				F468D167203E80EC0064D2AA /* Sources */,
+				F468D168203E80EC0064D2AA /* Frameworks */,
+				F468D169203E80EC0064D2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F468D16D203E80EC0064D2AA /* PBXTargetDependency */,
+			);
+			name = BitgrangeTests;
+			productName = BitgrangeTests;
+			productReference = F468D16B203E80EC0064D2AA /* BitgrangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F468D175203E80EC0064D2AA /* BitgrangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F468D185203E80EC0064D2AA /* Build configuration list for PBXNativeTarget "BitgrangeUITests" */;
+			buildPhases = (
+				D50917596D8A84815E182FC7 /* [CP] Check Pods Manifest.lock */,
+				F468D172203E80EC0064D2AA /* Sources */,
+				F468D173203E80EC0064D2AA /* Frameworks */,
+				F468D174203E80EC0064D2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F468D178203E80EC0064D2AA /* PBXTargetDependency */,
+			);
+			name = BitgrangeUITests;
+			productName = BitgrangeUITests;
+			productReference = F468D176203E80EC0064D2AA /* BitgrangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F468D14F203E80EC0064D2AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Bitgrange;
+				TargetAttributes = {
+					F468D156203E80EC0064D2AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					F468D16A203E80EC0064D2AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F468D156203E80EC0064D2AA;
+					};
+					F468D175203E80EC0064D2AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F468D156203E80EC0064D2AA;
+					};
+				};
+			};
+			buildConfigurationList = F468D152203E80EC0064D2AA /* Build configuration list for PBXProject "Bitgrange" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F468D14E203E80EC0064D2AA;
+			productRefGroup = F468D158203E80EC0064D2AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F468D156203E80EC0064D2AA /* Bitgrange */,
+				F468D16A203E80EC0064D2AA /* BitgrangeTests */,
+				F468D175203E80EC0064D2AA /* BitgrangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F468D155203E80EC0064D2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F468D165203E80EC0064D2AA /* LaunchScreen.storyboard in Resources */,
+				F4AC974F2046611A00AF4025 /* GoogleService-Info.plist in Resources */,
+				F468D162203E80EC0064D2AA /* Assets.xcassets in Resources */,
+				F468D160203E80EC0064D2AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468D169203E80EC0064D2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468D174203E80EC0064D2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ED7EDDA626D710F45434E8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitgrange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5137DE436B5F0872A3512AB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitgrangeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE8537873E0759012CCB850 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bitgrange/Pods-Bitgrange-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bitgrange/Pods-Bitgrange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D50917596D8A84815E182FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitgrangeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F468D153203E80EC0064D2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43F28E2209531B400D1E06C /* MainViewController.swift in Sources */,
+				F468D15D203E80EC0064D2AA /* ViewController.swift in Sources */,
+				F4181172209524D400350632 /* WhiteButton.swift in Sources */,
+				F468D15B203E80EC0064D2AA /* AppDelegate.swift in Sources */,
+				F41D117820950F4800E4642D /* HelperFiles.swift in Sources */,
+				F41D117C2095141A00E4642D /* UserHomeViewController.swift in Sources */,
+				F418117020951B3A00350632 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468D167203E80EC0064D2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F468D170203E80EC0064D2AA /* BitgrangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468D172203E80EC0064D2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F468D17B203E80EC0064D2AA /* BitgrangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F468D16D203E80EC0064D2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F468D156203E80EC0064D2AA /* Bitgrange */;
+			targetProxy = F468D16C203E80EC0064D2AA /* PBXContainerItemProxy */;
+		};
+		F468D178203E80EC0064D2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F468D156203E80EC0064D2AA /* Bitgrange */;
+			targetProxy = F468D177203E80EC0064D2AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F468D15E203E80EC0064D2AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F468D15F203E80EC0064D2AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F468D163203E80EC0064D2AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F468D164203E80EC0064D2AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F468D17D203E80EC0064D2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F468D17E203E80EC0064D2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F468D180203E80EC0064D2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCC59B5BF3CA52F152033C3 /* Pods-Bitgrange.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bitgrange/Bitgrange.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H9W6U448P;
+				INFOPLIST_FILE = Bitgrange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bitgrange.Bitgrange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F468D181203E80EC0064D2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700DF7E02A8E63A08C2EFB02 /* Pods-Bitgrange.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bitgrange/Bitgrange.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H9W6U448P;
+				INFOPLIST_FILE = Bitgrange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bitgrange.Bitgrange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F468D183203E80EC0064D2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039028C53B3EA5C88A3B379E /* Pods-BitgrangeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitgrangeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bitgrange.BitgrangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitgrange.app/Bitgrange";
+			};
+			name = Debug;
+		};
+		F468D184203E80EC0064D2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0957946D4D004DD0BC56D4 /* Pods-BitgrangeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitgrangeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bitgrange.BitgrangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitgrange.app/Bitgrange";
+			};
+			name = Release;
+		};
+		F468D186203E80EC0064D2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D23FEC360D038AE2AAC4A4 /* Pods-BitgrangeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitgrangeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bitgrange.BitgrangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bitgrange;
+			};
+			name = Debug;
+		};
+		F468D187203E80EC0064D2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8118D3C7B21DDC6DABCF11 /* Pods-BitgrangeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitgrangeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bitgrange.BitgrangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bitgrange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F468D152203E80EC0064D2AA /* Build configuration list for PBXProject "Bitgrange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468D17D203E80EC0064D2AA /* Debug */,
+				F468D17E203E80EC0064D2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F468D17F203E80EC0064D2AA /* Build configuration list for PBXNativeTarget "Bitgrange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468D180203E80EC0064D2AA /* Debug */,
+				F468D181203E80EC0064D2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F468D182203E80EC0064D2AA /* Build configuration list for PBXNativeTarget "BitgrangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468D183203E80EC0064D2AA /* Debug */,
+				F468D184203E80EC0064D2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F468D185203E80EC0064D2AA /* Build configuration list for PBXNativeTarget "BitgrangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468D186203E80EC0064D2AA /* Debug */,
+				F468D187203E80EC0064D2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F468D14F203E80EC0064D2AA /* Project object */;
+}
